@@ -1,0 +1,23 @@
+.field{
+  .input{
+    @apply .px-3 .py-2 .text-lg .border .border-gray-400 .rounded;
+    &:focus{
+      @apply .outline-none;
+    }
+  }
+  .label{
+    @apply .block .font-semibold;
+  }
+}
+.button{
+  @apply .bg-gray-300 .px-3 .py-2 .rounded
+}
+nav{
+  .user-button{
+    @apply .bg-blue-300 .px-3 .py-2 .rounded-sm;
+    
+    &:hover{
+      @apply .bg-blue-200
+    }
+  }
+}
